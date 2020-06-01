@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "donut-test-project",
+  "version": "1.0.0",
+  "description": "Slack bot test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=donut nodemon  --experimental-modules src/index.js",
+    "start": "node  --experimental-modules src/index.js"
+  },
+  "author": "Benjamin Sterling",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "2.3.3",
+    "@slack/web-api": "5.9.0",
+    "axios": "0.19.2",
+    "body-parser": "1.19.0",
+    "crypto": "1.0.1",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "lodash": "4.17.11",
+    "querystring": "0.2.0",
+    "tsscmp": "1.0.6"
+  },
+  "devDependencies": {
+    "debug": "4.1.1",
+    "invariant": "2.2.4",
+    "nodemon": "2.0.4"
+  }
+}
